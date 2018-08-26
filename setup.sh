@@ -1,4 +1,4 @@
-# Save Raspbian/Linux disk image from network connected rpi
+# On Raspbian/Linux disk image freshly burnt from network connected rpi
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install git vim screen autoconf libevent-dev libtool libssl-dev libboost-all-dev libminiupnpc-dev -y
@@ -9,5 +9,7 @@ sudo dphys-swapfile swapon
 cd bitcoin
 ./autogen.sh
 ./configure
+time make
 sudo make install
+
 ## refs https://steemit.com/bitcoin/@mys/usd100-raspberry-pi2-bitcoin-light-node-with-tft-display-and-3d-printed-case
