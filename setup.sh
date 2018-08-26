@@ -1,4 +1,4 @@
-# Save Raspbian/Linux disk image from network connected rpi
+# On Raspbian/Linux disk image freshly burnt from network connected rpi
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install git vim screen autoconf libevent-dev libtool libssl-dev libboost-all-dev libminiupnpc-dev -y
