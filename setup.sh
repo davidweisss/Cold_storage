@@ -49,3 +49,4 @@ vim  ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
 sudo ifconfig wlan0 up 
 
 ## refs https://steemit.com/bitcoin/@mys/usd100-raspberry-pi2-bitcoin-light-node-with-tft-display-and-3d-printed-case
+## https://scribles.net/disabling-bluetooth-on-raspberry-pi/
