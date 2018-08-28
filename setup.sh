@@ -1,4 +1,7 @@
 # On Raspbian/Linux disk image freshly burnt from network connected rpi
+## Interactive script to record the secure process
+## Operator executes line by line
+
 ## Change password (interactive)
 passwd
 
@@ -27,6 +30,7 @@ sudo ifconfig wlan0 down
 ## Compile and install bitcoin
 cd bitcoin
 ./autogen.sh
+## for old wallet compat: not needed
 ./configure --with-incompatible-bdb
 time make
 sudo make install
@@ -36,7 +40,7 @@ sudo make install
 rm ~/.bitcoin/wallets/wallet.dat
 
 ## Launching bitcoin daemon will create wallet.dat
-## Launch without 
+## Launch without internet connection, blocks are not synched [3]
 bitcoind -connect=0 -nolisten -daemon
 
 ## Dump wallet keys to file
