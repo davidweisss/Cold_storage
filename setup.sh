@@ -37,7 +37,8 @@ sudo make install
 
 ## !! make sure you don't need this wallet anymore
 ## Remove existing wallet
-rm ~/.bitcoin/wallets/wallet.dat
+## Shred scrambles the data so that file cannot be recovered
+shred -zvu ~/.bitcoin/wallets/wallet.dat
 
 ## Launching bitcoin daemon will create wallet.dat
 ## Launch without internet connection, blocks are not synched [3]
@@ -54,8 +55,8 @@ vim  ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
 
 ## Create new screen tab C^a-C^c
 ## Remove new wallet and wallet dump
-rm ~/.bitcoin/wallets/wallet.dat
-rm to-destroy-b4-going-online.txt
+shred -zvu ~/.bitcoin/wallets/wallet.dat
+shred -zvu to-destroy-b4-going-online.txt
 
 ## Turn on wifi (if needed)
 sudo ifconfig wlan0 up 
