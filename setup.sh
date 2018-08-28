@@ -48,7 +48,7 @@ bitcoind -connect=0 -nolisten
 
 ## Create new screen tab C^a-C^c
 ## Dump wallet keys to file
-bitcoin-cli dumpwallet to-destroy-b4-going-online.txt
+bitcoin-cli dumpwallet ~/.bitcoin/wallets/to-destroy-b4-going-online.txt 
 
 ## Examine and note manually the relevant codes
 vim  ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
