@@ -1,5 +1,5 @@
 # On Raspbian/Linux disk image freshly burnt from network connected rpi
-## Interactive script to record the secure process
+## Interactive shell script to record the secure process
 ## Operator executes line by line
 
 ## Change password (interactive)
@@ -41,14 +41,18 @@ rm ~/.bitcoin/wallets/wallet.dat
 
 ## Launching bitcoin daemon will create wallet.dat
 ## Launch without internet connection, blocks are not synched [3]
-bitcoind -connect=0 -nolisten -daemon
+screen
 
+bitcoind -connect=0 -nolisten 
+
+## Create new screen tab C^a-C^c
 ## Dump wallet keys to file
 bitcoin-cli dumpwallet to-destroy-b4-going-online.txt
 
 ## Examine and note manually the relevant codes
 vim  ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
 
+## Create new screen tab C^a-C^c
 ## Remove new wallet and wallet dump
 rm ~/.bitcoin/wallets/wallet.dat
 rm to-destroy-b4-going-online.txt
