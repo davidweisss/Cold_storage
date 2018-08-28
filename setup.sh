@@ -1,4 +1,6 @@
 # On Raspbian/Linux disk image freshly burnt from network connected rpi
+## Change password (interactive)
+passwd
 
 ## Update software
 sudo apt-get update
