@@ -64,3 +64,4 @@ sudo ifconfig wlan0 up
 ## [ 1 ] refs https://steemit.com/bitcoin/@mys/usd100-raspberry-pi2-bitcoin-light-node-with-tft-display-and-3d-printed-case
 ## [ 2 ] https://scribles.net/disabling-bluetooth-on-raspberry-pi/
 ## [ 3 ] https://bitcoin.stackexchange.com/questions/50612/how-can-i-run-bitcoin-cli-with-disabled-syncing
+## [ 4 ] https://www.tecmint.com/permanently-and-securely-delete-files-directories-linux/
