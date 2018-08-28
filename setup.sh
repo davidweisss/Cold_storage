@@ -56,7 +56,7 @@ vim  ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
 ## Create new screen tab C^a-C^c
 ## Remove new wallet and wallet dump
 shred -zvu ~/.bitcoin/wallets/wallet.dat
-shred -zvu to-destroy-b4-going-online.txt
+shred -zvu ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
 
 ## Turn on wifi (if needed)
 sudo ifconfig wlan0 up 
