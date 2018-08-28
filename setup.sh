@@ -30,7 +30,7 @@ time make
 sudo make install
 
 ## Remove existing wallet
-rn ~/.bitcoin/wallets/wallet.dat
+rm ~/.bitcoin/wallets/wallet.dat
 
 ## Launching bitcoin daemon will create wallet.dat
 bitcoind 
@@ -41,9 +41,9 @@ bitcoin-cli dumpwallet to-destroy-b4-going-online.txt
 ## Examine and note manually the relevant codes
 vim  ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
 
-## Remove new wallet
-rn ~/.bitcoin/wallets/wallet.dat
-rm to-destroy-b4-going-online.txt
+## Remove new wallet and wallet dump
+## rm ~/.bitcoin/wallets/wallet.dat
+## rm to-destroy-b4-going-online.txt
 
 ## Turn on wifi (if needed)
 sudo ifconfig wlan0 up 
