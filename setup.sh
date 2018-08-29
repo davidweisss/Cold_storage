@@ -16,7 +16,7 @@ sudo apt-get autoremove -y
 ## Install deps and utils
 sudo apt-get install git vim screen 
 sudo apt-get install autoconf libevent-dev libtool libssl-dev libboost-all-dev libminiupnpc-dev -y
-
+sudo apt-get libdb5.3++-dev
 ## Clone bitcoin from github repo
 git clone https://github.com/bitcoin/bitcoin.git
 
