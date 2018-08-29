@@ -13,9 +13,10 @@ sudo apt-get upgrade -y
 sudo apt-get purge bluez -y
 sudo apt-get autoremove -y
 
-## Install deps and utils
-sudo apt-get install git vim screen 
+## Install bitcoin deps
 sudo apt-get install autoconf libevent-dev libtool libssl-dev libboost-all-dev libminiupnpc-dev -y
+## dev tools
+sudo apt-get install git vim screen 
 
 ## Needs this library but chokes on version, corrected with flag on running bitcoind
 sudo apt-get libdb5.3++-dev
