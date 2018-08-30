@@ -17,3 +17,5 @@ So the implementation is relatively simple because it's just a simple use case o
 Use cases
 - 1/ Simple private key-based physical bitcoin
 - 2/ Run an organization centrally linking a bitcoin address to each user (with/without managing private keys).
+
+https://www.wired.com/story/coinbase-physical-vault-to-secure-a-virtual-currency/
