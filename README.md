@@ -1,6 +1,6 @@
 # Self-sovereignly produce bitcoin private keys for storage
 
-- Not-yet compromised hardware (rpi with ARM processor
+- Not-yet compromised hardware (rpi with ARM processor)
 - offline key generation and destruction with bitcoin-cli
 - offline bitcoin transaction signing with bitcoin-cli
 
