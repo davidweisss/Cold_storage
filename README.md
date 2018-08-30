@@ -19,3 +19,4 @@ Use cases
 - 2/ Run an organization centrally linking a bitcoin address to each user (with/without managing private keys).
 
 https://www.wired.com/story/coinbase-physical-vault-to-secure-a-virtual-currency/
+https://denarium.com/
