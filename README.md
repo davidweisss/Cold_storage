@@ -1,7 +1,8 @@
 # Securely produce bitcoin private keys for storage
 - Not-yet compromised hardware (rpi with ARM processor)
-- offline key generation and destruction
-- offline signing
+
+- offline key generation and destruction with bitcoin-cli
+- offline signing with bitcoin-cli
 
 ## Online. Setting up bitcoin and deps
 - A network install is performed on a new / clean sd drive
