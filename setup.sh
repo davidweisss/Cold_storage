@@ -44,9 +44,10 @@ shred -zvu ~/.bitcoin/wallets/wallet.dat
 
 ## Launching bitcoin daemon will create wallet.dat
 ## Launch without internet connection, blocks are not synched [3]
-screen
-
-bitcoind -connect=0 -nolisten 
+## Dev: screen
+## bitcoind -connect=0 -nolisten 
+bitcoind -connect=0 -nolisten -daemon
+##
 
 ## Create new screen tab C^a-C^c
 ## Dump wallet keys to file
@@ -57,12 +58,13 @@ vim  ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
 
 ## Create new screen tab C^a-C^c
 ## Remove new wallet and wallet dump
-shred -zvu ~/.bitcoin/wallets/wallet.dat
-shred -zvu ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
+## shred -zvu ~/.bitcoin/wallets/wallet.dat
+## shred -zvu ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
 shred -zvu ~/.bitcoin
 
 ## Do all cleanup necessary
 ## If security critical, destroy the sd card physically.
+
 ## Turn on wifi (for development, not for normal operation).
 ## sudo ifconfig wlan0 up 
 
