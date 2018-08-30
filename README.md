@@ -11,7 +11,7 @@
 
 ## Offline. Create a wallet, output a private key.
 
-
+## Offline. Create and sign a bitcoin transaction with private key
 
 https://www.wired.com/story/coinbase-physical-vault-to-secure-a-virtual-currency/
 
