@@ -1,9 +1,12 @@
 # Securely produce bitcoin private keys for storage
+- Not-yet compromised hardware (rpi with ARM processor)
+- offline key generation and destruction
+- offline signing
 
 ## Online. Setting up bitcoin and deps
-downloading, configuring, building, installing bitcoin
+- A network install is performed on a new / clean sd drive
+- downloading, configuring, building, installing bitcoin
 
-A network install is performed on a new / clean sd drive.
 
 ## Offline. Create a wallet, output a private key.
 
