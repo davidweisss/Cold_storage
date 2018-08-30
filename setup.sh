@@ -27,6 +27,8 @@ git clone https://github.com/bitcoin/bitcoin.git
 ## Turn off wifi
 sudo ifconfig wlan0 down
 
+## At this point you may go offline to any protected place needed (Faraday cage)
+
 ## Compile and install bitcoin
 cd bitcoin
 ./autogen.sh
