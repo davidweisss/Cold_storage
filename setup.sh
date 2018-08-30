@@ -59,9 +59,12 @@ vim  ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
 ## Remove new wallet and wallet dump
 shred -zvu ~/.bitcoin/wallets/wallet.dat
 shred -zvu ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
+shred -zvu ~/.bitcoin
 
-## Turn on wifi (if needed)
-sudo ifconfig wlan0 up 
+## Do all cleanup necessary
+## If security critical, destroy the sd card physically.
+## Turn on wifi (for development, not for normal operation).
+## sudo ifconfig wlan0 up 
 
 ## [ 1 ] refs https://steemit.com/bitcoin/@mys/usd100-raspberry-pi2-bitcoin-light-node-with-tft-display-and-3d-printed-case
 ## [ 2 ] https://scribles.net/disabling-bluetooth-on-raspberry-pi/
