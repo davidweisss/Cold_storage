@@ -5,9 +5,8 @@
 - offline bitcoin transaction signing with bitcoin-cli
 
 ## Online. Setting up bitcoin and deps
-- A network install is performed on a new / clean sd drive
+- A network install is performed on a new / clean sd drive on a Raspberry Pi 3.
 - downloading, configuring, building, installing bitcoin
-
 
 ## Offline. Create a wallet, output a private key.
 
