@@ -2,8 +2,8 @@
 ## Interactive shell script to record the secure process
 ## Operator executes line by line
 
-## Change password (interactive)
-passwd
+## Change password (if interactive)
+## passwd
 
 ## Update software
 sudo apt-get update -y
@@ -16,7 +16,7 @@ sudo apt-get autoremove -y
 ## Install bitcoin deps
 sudo apt-get install autoconf libevent-dev libtool libssl-dev libboost-all-dev libminiupnpc-dev -y
 ## dev tools
-sudo apt-get install git vim screen 
+## sudo apt-get install git vim screen 
 
 ## Needs this library but chokes on version, corrected with flag on running bitcoind
 sudo apt-get libdb5.3++-dev
@@ -37,11 +37,6 @@ cd bitcoin
 time make
 sudo make install
 
-## !! make sure you don't need this wallet anymore
-## Remove existing wallet
-## Shred scrambles the data so that file cannot be recovered
-shred -zvu ~/.bitcoin/wallets/wallet.dat
-
 ## Launching bitcoin daemon will create wallet.dat
 ## Launch without internet connection, blocks are not synched [3]
 ## Dev: screen
@@ -57,9 +52,8 @@ bitcoin-cli dumpwallet ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
 vim  ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
 
 ## Create new screen tab C^a-C^c
-## Remove new wallet and wallet dump
-## shred -zvu ~/.bitcoin/wallets/wallet.dat
-## shred -zvu ~/.bitcoin/wallets/to-destroy-b4-going-online.txt
+## Remove new wallet and wallet dump, and all the data from bitcoin on ./bitcoin
+## Shred scrambles the data so that file cannot be recovered
 shred -zvu ~/.bitcoin
 
 ## Do all cleanup necessary
