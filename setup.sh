@@ -19,7 +19,7 @@ sudo apt-get install autoconf libevent-dev libtool libssl-dev libboost-all-dev l
 ## sudo apt-get install git vim screen 
 
 ## Needs this library but chokes on version, corrected with flag on running bitcoind
-sudo apt-get install libdb5.3++-dev
+sudo apt-get install libdb5.3++-dev -y
 
 ## Clone bitcoin from github repo
 git clone https://github.com/bitcoin/bitcoin.git
