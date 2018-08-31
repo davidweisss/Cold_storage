@@ -1,7 +1,7 @@
 # Self-sovereignly produce bitcoin private keys for storage
-  Not-yet compromised hardware (Raspberry Pi with ARM processor)
-  offline key generation and destruction with bitcoin-cli
-  offline bitcoin transaction signing with bitcoin-cli
+  - Not-yet compromised hardware (Raspberry Pi with ARM processor)
+  - offline key generation and destruction with bitcoin-cli
+  - offline bitcoin transaction signing with bitcoin-cli
 
 ## Online. Setting up bitcoin and deps
 - A network install is performed on a new / clean sd drive on a Raspberry Pi 3.
