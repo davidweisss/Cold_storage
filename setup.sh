@@ -21,8 +21,8 @@ sudo apt-get install autoconf libevent-dev libtool libssl-dev libboost-all-dev l
 ## Needs this library but chokes on version, corrected with flag on running bitcoind
 sudo apt-get install libdb5.3++-dev -y
 
-## tool for processing bitcoin-cli json outputs
-sudo apt-get install jq -y
+## tool for processing bitcoin-cli json outputs and arbitrary precision calculator
+sudo apt-get install jq bc -y
 
 
 ## Clone bitcoin from github repo
