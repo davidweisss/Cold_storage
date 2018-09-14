@@ -33,7 +33,3 @@ rawTxSigned=`echo $rawTxSigned| jq -r '.hex'`
 
 echo $rawTxSigned >> $transfer
 
-## ONLINE: Send tx
-bitcoin-cli sendrawtransaction $rawTransactionSigned 
-
-## TODO: Message-to-hex with hexdump
