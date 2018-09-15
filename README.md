@@ -4,7 +4,7 @@ Following common advice to manage your own bitcoin and after trying to start bit
 
 The design is based on 2 principles:
 - your private key hard copy, if destroyed, is the last place where it will ever occur in all of conceivable time and space
-- it will be done with as little dependencies as possible other than bitcoin and linux source code
+- achieve with as little dependencies as possible other than bitcoin and linux source code
 
 ## Steps of process
 1. Offline Delete Drives Securely
