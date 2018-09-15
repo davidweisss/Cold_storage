@@ -24,5 +24,4 @@ The design is based on 2 principles:
 - 2 Screens, DVI cables, screen power cables
 
 https://www.wired.com/story/coinbase-physical-vault-to-secure-a-virtual-currency/
-
 https://denarium.com/
