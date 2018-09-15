@@ -20,11 +20,8 @@ The design is based on 2 principles:
 ## List of materials
 - 3 micro SD cards
 - 1-3 micro SD to USB adaptor
-- 2 Raspberry Pi B+
-- 2 Screens
-- 2 DVI cables
-- 2 screen power cables
-- Wifi internet (can be unsecure as long as you can checksum linux installation)
+- 2 Raspberry Pi B+ plus power source
+- 2 Screens, DVI cables, screen power cables
 
 https://www.wired.com/story/coinbase-physical-vault-to-secure-a-virtual-currency/
 
