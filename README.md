@@ -21,7 +21,7 @@ The design is based on 2 principles:
 - 3 micro SD cards
 - 1-3 micro SD to USB adaptor
 - 2 Raspberry Pi B+ plus power source
-- 2 Screens, DVI cables, screen power cables
+- 2 Screens, HDMI cables, screen power cables
 
 https://www.wired.com/story/coinbase-physical-vault-to-secure-a-virtual-currency/
 https://denarium.com/
