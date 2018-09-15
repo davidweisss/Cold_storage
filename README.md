@@ -1,6 +1,6 @@
 Following common advice to manage your own bitcoin and after trying to start bitcoin ventures I needed: 
 
-# A series of steps and materials to achieve truly secure self-storage of bitcoin
+# A series of steps and materials for secure self-storage of bitcoin
 
 The design is based on 2 principles:
 - your private key hard copy, if destroyed, is the last place where it will ever occur in all of conceivable time and space
