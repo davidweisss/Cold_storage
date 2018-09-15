@@ -1,17 +1,24 @@
 List of materials
-- 
-- 
+- 3 micro SD cards
+- 1-3 micro SD to USB adaptor
+- 2 Raspberry Pi B+
+- 2 Screens
+- 2 DVI cables
+- 2 screen power cables
+- Wifi internet (can be unsecure as long as you can checksum linux installation)
 
 
-- Delete drives securely
-- Clean Slate Linux Distro WOfflineBitcoinInstall
--ame diskImage.sh to deleteDrivSecurely
-offlineCreateKeys.sh	Rename createKeys.sh to offlineCreateKeys.sh	22 hours ago
-offlineTxSign.sh	Update offlineTxSign.sh	23 hours ago
-onlineSendSignedTx.sh	Rename onlineSendSigneTx.sh to onlineSendSignedTx.sh	23 hours ago
-onlineVerifyTransactions.sh	Rename verifyTransactions.sh to onlineVerifyTransactions.sh	23 hours ago
-setupTransferAndBackupDrives.sh	Update setupTransferAndBackupDrives.sh
-deleteDriveSecurely.sh
+Steps of process
+- Offline Delete Drives Securely
+- Offline Setup Transfer and Backup Drives
+- Online setup OS and configure server, with offline bitcoin installation 
+- Offline Create Keys
+- Offline Transaction Sign
+- Offline delete Drives Securely.sh
+
+- Online Send Signed Transaction
+- Online Verify Transactions
+
 
 # Self-sovereignly produce bitcoin private keys for storage
   - Not-yet compromised hardware (Raspberry Pi with ARM processor)
