@@ -2,6 +2,12 @@
 ## Interactive shell script to record the secure process
 ## Operator executes line by line
 
+## ## Interactive
+## ## Temporarily enable wifi and connect, change password
+## sudo raspi-config
+## ## Or only change password
+## passwd
+
 ## Update software
 sudo apt-get update -y
 sudo apt-get upgrade -y
