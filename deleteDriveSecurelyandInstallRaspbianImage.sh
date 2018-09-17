@@ -21,14 +21,14 @@ sudo dd if=/dev/zero of=/dev/sda
 ## 128043712512 bytes (128 GB, 119 GiB) copied, 36658 s, 3,5 MB/s
 
 ## Download raspbian
-wget http://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-06-29/2018-06-27-raspbian-stretch-lite.zip
+wget http://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-latest
 ## Checksum of OS (raspbian)
 ## SHA-256:3271b244734286d99aeba8fa043b6634cad488d211583814a2018fc14fdca313
 ## https://www.raspberrypi.org/downloads/raspbian/
 
 ## Verify download
-sha256sum 2018-06-27-raspbian-stretch-lite.zip 
-
+sha256sum raspbian_lite_latest
+## 3271b244734286d99aeba8fa043b6634cad488d211583814a2018fc14fdca313  raspbian_lite_latest
 
 ## Expand archive
 ## Copy image into sd
