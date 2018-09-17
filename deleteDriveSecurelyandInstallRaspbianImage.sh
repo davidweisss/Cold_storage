@@ -24,11 +24,12 @@ sudo dd if=/dev/zero of=/dev/sda
 ## Download raspbian
 wget http://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-06-29/2018-06-27-raspbian-stretch-lite.zip
 ## Checksum of OS (raspbian)
-## SHA-256:3271b244734286d99aeba8fa043b6634cad488d211583814a2018fc14
+## SHA-256:3271b244734286d99aeba8fa043b6634cad488d211583814a2018fc14fdca313
 ## https://www.raspberrypi.org/downloads/raspbian/
 
 ## Verify download
 sha256sum 2018-06-27-raspbian-stretch-lite.zip 
+
 
 ## Expand archive
 jar xvf 2018-06-27-raspbian-stretch-lite.zip 
