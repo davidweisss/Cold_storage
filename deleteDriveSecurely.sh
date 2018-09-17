@@ -3,8 +3,15 @@
 ## Erase/clear micro SD card
 ## http://www.upubuntu.com/2012/01/how-to-clearerase-disk-partitions-from.html
 sudo fdisk -l
-## Find dev that gets added when you put in the card and flatten all its bytes to 0.
+
+## Find dev that gets added when you put in the card and flatten all its bytes to 0. Writes until an error occurs because there is no space left on the device. Can take long (eg full day) on large cards!
 sudo dd if=/dev/zero of=/dev/sda
+##dd: écriture vers '/dev/sda': Aucun espace disponible sur le périphérique
+##250085377+0 enregistrements lus
+##250085376+0 enregistrements écrits
+##128043712512 bytes (128 GB, 119 GiB) copied, 36658 s, 3,5 MB/s
+
+
 
 ## Refs
 ## https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
