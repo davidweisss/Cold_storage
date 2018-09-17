@@ -14,13 +14,15 @@ sudo fdisk -l
 ##Device     Boot Start       End   Sectors   Size Id Type
 ##/dev/sda1        2048 250085375 250083328 119,3G 83 Linux
 
-
 ## Find dev that gets added when you put in the card and flatten all its bytes to 0. Writes until an error occurs because there is no space left on the device. Can take long (eg full day) on large cards!
 sudo dd if=/dev/zero of=/dev/sda
 ##dd: écriture vers '/dev/sda': Aucun espace disponible sur le périphérique
 ##250085377+0 enregistrements lus
 ##250085376+0 enregistrements écrits
 ##128043712512 bytes (128 GB, 119 GiB) copied, 36658 s, 3,5 MB/s
+
+wget http://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-06-29/2018-06-27-raspbian-stretch-lite.zip
+jar xvf 2018-06-27-raspbian-stretch-lite.zip 
 
 ## Checksum of OS (raspbian)
 ## SHA-256:3271b244734286d99aeba8fa043b6634cad488d211583814a2018fc14
