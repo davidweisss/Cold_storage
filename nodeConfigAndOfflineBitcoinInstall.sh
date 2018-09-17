@@ -2,9 +2,6 @@
 ## Interactive shell script to record the secure process
 ## Operator executes line by line
 
-## Change password (if interactive)
-## passwd
-
 ## Update software
 sudo apt-get update -y
 sudo apt-get upgrade -y
