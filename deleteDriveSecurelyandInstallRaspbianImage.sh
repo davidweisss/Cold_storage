@@ -20,36 +20,6 @@ sudo dd if=/dev/zero of=/dev/sda
 ## 250085376+0 enregistrements écrits
 ## 128043712512 bytes (128 GB, 119 GiB) copied, 36658 s, 3,5 MB/s
 
-sudo fdisk /dev/sda
-## Command (m for help): d
-## Selected partition 1
-## Partition 1 has been deleted.
-
-## Command (m for help): d
-## No partition is defined yet!
-## Could not delete partition 10344545
-
-## Command (m for help): n
-## Partition type
-##    p   primary (0 primary, 0 extended, 4 free)
-##    e   extended (container for logical partitions)
-## Select (default p): 
-
-## Using default response p.
-## Partition number (1-4, default 1): 
-## First sector (2048-250085375, default 2048): 
-## Last sector, +sectors or +size{K,M,G,T,P} (2048-250085375, default 250085375): 
-##
-## Created a new partition 1 of type 'Linux' and of size 119,3 GiB.
-## Command (m for help): w
-
-## The partition table has been altered.
-## Calling ioctl() to re-read partition table.
-## Syncing disks.
-
-## Make file system
-sudo mkfs -t vfat -I /dev/sda1
-
 ## Download raspbian
 wget http://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-06-29/2018-06-27-raspbian-stretch-lite.zip
 ## Checksum of OS (raspbian)
@@ -61,10 +31,10 @@ sha256sum 2018-06-27-raspbian-stretch-lite.zip
 
 
 ## Expand archive
-jar xvf 2018-06-27-raspbian-stretch-lite.zip 
-
+unzip 2018-06-27-raspbian-stretch-lite.zip 
+ 
 ## Copy image into sd
-sudo dd if='2018-06-27-raspbian-stretch-lite.img' of='/dev/sda1'
+sudo dd if='2018-06-27-raspbian-stretch-lite.img' of='/dev/sda'
 
 
 ## Refs
