@@ -34,8 +34,7 @@ sha256sum 2018-06-27-raspbian-stretch-lite.zip
 unzip 2018-06-27-raspbian-stretch-lite.zip 
  
 ## Copy image into sd
-sudo dd if='2018-06-27-raspbian-stretch-lite.img' of='/dev/sda'
-
+sudo dd if=2018-06-27-raspbian-stretch-lite.img of=/dev/sda status=progress conv=fsync bs=4M
 
 ## Refs
 ## http://www.upubuntu.com/2012/01/how-to-clearerase-disk-partitions-from.html
