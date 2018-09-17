@@ -1,5 +1,4 @@
 ## Process to securely erase a drive and securely copy a verified linux image to it
-
 ## Erase/clear micro SD card
 
 ## List partition (check there is only one that takes all disk space...)
@@ -34,7 +33,8 @@ sha256sum 2018-06-27-raspbian-stretch-lite.zip
 ## Expand archive
 jar xvf 2018-06-27-raspbian-stretch-lite.zip 
 
-
+## Copy image into sd
+sudo dd if='2018-06-27-raspbian-stretch-lite.img' of='/dev/sda1'
 
 
 ## Refs
