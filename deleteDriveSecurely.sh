@@ -2,7 +2,19 @@
 
 ## Erase/clear micro SD card
 ## http://www.upubuntu.com/2012/01/how-to-clearerase-disk-partitions-from.html
+
+## List partition (check there is only one that takes all disk space...)
 sudo fdisk -l
+##Disk /dev/sda: 119,3 GiB, 128043712512 bytes, 250085376 sectors
+##Units: sectors of 1 * 512 = 512 bytes
+##Sector size (logical/physical): 512 bytes / 512 bytes
+##I/O size (minimum/optimal): 512 bytes / 512 bytes
+##Disklabel type: dos
+##Disk identifier: 0xa8560bcf
+##
+##Device     Boot Start       End   Sectors   Size Id Type
+##/dev/sda1        2048 250085375 250083328 119,3G 83 Linux
+
 
 ## Find dev that gets added when you put in the card and flatten all its bytes to 0. Writes until an error occurs because there is no space left on the device. Can take long (eg full day) on large cards!
 sudo dd if=/dev/zero of=/dev/sda
