@@ -1,7 +1,6 @@
 ## Process to securely erase a drive and securely copy a verified linux image to it
 
 ## Erase/clear micro SD card
-## http://www.upubuntu.com/2012/01/how-to-clearerase-disk-partitions-from.html
 
 ## List partition (check there is only one that takes all disk space...)
 sudo fdisk -l
@@ -28,7 +27,9 @@ sudo dd if=/dev/zero of=/dev/sda
 ## https://www.raspberrypi.org/downloads/raspbian/
 
 
+
 ## Refs
+## http://www.upubuntu.com/2012/01/how-to-clearerase-disk-partitions-from.html
 ## https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
 ## http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs-for-raspberry-pi/
 ## https://askubuntu.com/questions/153245/how-to-wipe-ram-on-shutdown-prevent-cold-boot-attacks
