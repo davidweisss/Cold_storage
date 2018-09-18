@@ -20,5 +20,5 @@ bitcoin-cli dumpprivkey $newAddress
 ## Shred scrambles the data so that file cannot be recovered
 shred -zvu ~/.bitcoin
 
-## 
+## Delete the whole drive securely.
 ## If security critical, destroy the sd card (+rpi for extreme security) physically.
