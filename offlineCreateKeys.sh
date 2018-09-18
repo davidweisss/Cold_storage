@@ -9,6 +9,10 @@ bitcoind -connect=0 -nolisten -daemon
 newAddress=`bitcoin-cli getnewaddress`
 bitcoin-cli dumpprivkey $newAddress
 
+## If you want to create a custom address
+## for i in `seq 1 1000`; do bitcoin-cli getnewaddress|grep ^My ; done
+## Or for longer strings https://twitter.com/l4rz/status/1040582046039658497
+
 ## Make a hard copy of the private key (optionally, the public key, which cam be recovered from the private key)
 
 ## Create new screen tab C^a-C^c
