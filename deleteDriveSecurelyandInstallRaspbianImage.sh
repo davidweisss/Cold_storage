@@ -21,7 +21,7 @@ sudo dd if=/dev/zero of=/dev/sda
 ## 128043712512 bytes (128 GB, 119 GiB) copied, 36658 s, 3,5 MB/s
 
 ## Download raspbian
-wget http://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-latest
+wget http://downloads.raspberrypi.org/raspbian_lite-latest
 ## Checksum of OS (raspbian)
 ## SHA-256:3271b244734286d99aeba8fa043b6634cad488d211583814a2018fc14fdca313
 ## https://www.raspberrypi.org/downloads/raspbian/
