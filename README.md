@@ -31,15 +31,15 @@ It is possible to browse transactions from an online full node and copy them by 
 
 6. Offline Transaction Create and Sign
 
-`. offlineTxCreateAndSign.sh res.txt \
-´{\
+```. offlineTxCreateAndSign.sh res.txt 
+´{
 ¨¨:,
 ¨¨:,
 ¨¨:,
 ¨¨:,
 ¨¨:,
 }´
-`
+```
 
 7. Transfer of signed transaction from offline to online through transfer drive
 8. Online Verify Transactions
