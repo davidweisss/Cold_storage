@@ -22,13 +22,11 @@ shred -zvu ~/.bitcoin
 
 ## Delete the whole drive securely.
 ## If security critical, destroy the sd card (+rpi for extreme security) physically.
+
+####################################
 ## !/bin/bash
-## declare -a arr=("Lea" "Ari" ".Sam" "Ben")
-
-
-
 # Code for vanity address generation. No external tool used for seurity therefore limited to 3 maybe 4 characters.
-## arr=("A" "Ben")
+## arr=("A" "DNA")
 ## for i in "${arr[@]}" ;do 
 ##	address=`bitcoin-cli -rpcuser=pi -rpcpassword=pwd getnewaddress` 
 ## hit=`echo "$address" | grep "^3$i"`
