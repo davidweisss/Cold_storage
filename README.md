@@ -27,6 +27,8 @@ It is possible to browse transactions from an online full node and copy them by 
 
 5. --  (optional backup and checksum)
 
+
+
 6. Offline Transaction Create and Sign
 
 `. offlineTxCreateAndSign.sh res.txt \
@@ -39,16 +41,15 @@ It is possible to browse transactions from an online full node and copy them by 
 }´
 `
 
-7. Offline delete Drives Securely
+7. Transfer of signed transaction from offline to online through transfer drive
+8. Online Verify Transactions
+9. Online Send Signed Transaction
+10. Offline delete Drives Securely
 
 At this point the keys have never touched the internet and are securely destroyed from source computer by programs, or physical destruction as the extreme option. 
 The keys thus only exist on your hard copy(ies) of it!!
 
 !!No force in the universe will get this key back to you ever.!!
-
-8. Transfer of signed transaction from offline to online through transfer drive
-9. Online Verify Transactions
-10. Online Send Signed Transaction
 
 ## List of materials
 - 3 micro SD cards
