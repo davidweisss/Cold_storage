@@ -13,19 +13,21 @@ Probably automatable with minor headache but interactive rn.
 1. Offline Delete Drives Securely
 2. Offline Setup Transfer and Backup Drives
 
-Automatic
 
 3. Online setup OS and configure server, with offline bitcoin installation
 
-Interactive. shell script to record the secure process. Operator executes line by line.
-
-Temporarily enable wifi and connect, change password
+Interactive step.
+Temporarily enable wifi and connect, change password.
 
 ```
 sudo raspi-config
 ## Or only change password
 passwd
 ```
+
+Automatic
+
+`. onlineNodeConfigAndOfflineBitcoinInstall.sh`
 
 From here on can transfer to air-gapped computer
 
