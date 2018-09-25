@@ -17,6 +17,18 @@ Automatic
 
 3. Online setup OS and configure server, with offline bitcoin installation
 
+## Interactive shell script to record the secure process
+## Operator executes line by line
+
+Interactive
+Temporarily enable wifi and connect, change password
+
+```
+sudo raspi-config
+## Or only change password
+passwd
+```
+
 From here on can transfer to air-gapped computer
 
 4. Offline Create Keys
