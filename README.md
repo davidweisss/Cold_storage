@@ -15,9 +15,12 @@ From here on can transfer to air-gapped computer
 
 4. Offline Create Keys
 
+`. offlineCreateKeysAndDeleteSource.sh`
+
 It is possible to browse transactions from an online full node and copy them by hand, as well as addressess etc. Signed transaction hex is very long and tedious. Depending on security criticality the transfer drive can be used as clipboard between online full node and air-gapped node.
 
 5. Offline Transaction Create and Sign
+
 `. offlineTxCreateAndSign.sh res.txt \
 ´{\
 ¨¨:,
