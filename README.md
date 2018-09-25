@@ -12,10 +12,15 @@ The design is based on 2 principles:
 3. Online setup OS and configure server, with offline bitcoin installation
 
 From here on can transfer to air-gapped computer
+
 4. Offline Create Keys
+
 It is possible to browse transactions from an online full node and copy them by hand, as well as addressess etc. Signed transaction hex is very long and tedious so the transfer. Depending on security criticality the transfer drive can be used as clipboard between online full node and air-gapped node.
+
 5. Offline Transaction Create and Sign
+
 (5.1 optional backup and checksum)
+
 6. Offline delete Drives Securely
 At this point the keys have never touched the internet and are securely destroyed from source computer by programs, or physical destruction as the extreme option. 
 The keys thus only exist on your hard copy(ies) of it!!
