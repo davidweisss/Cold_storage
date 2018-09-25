@@ -7,8 +7,14 @@ The design is based on 2 principles:
 - achieve with as little dependencies as possible other than bitcoin and linux source code
 
 ## Steps of process
+
+Probably automatable with minor headache but interactive rn.
+
 1. Offline Delete Drives Securely
 2. Offline Setup Transfer and Backup Drives
+
+Automatic
+
 3. Online setup OS and configure server, with offline bitcoin installation
 
 From here on can transfer to air-gapped computer
@@ -19,7 +25,9 @@ From here on can transfer to air-gapped computer
 
 It is possible to browse transactions from an online full node and copy them by hand, as well as addressess etc. Signed transaction hex is very long and tedious. Depending on security criticality the transfer drive can be used as clipboard between online full node and air-gapped node.
 
-5. Offline Transaction Create and Sign
+5. --  (optional backup and checksum)
+
+6. Offline Transaction Create and Sign
 
 `. offlineTxCreateAndSign.sh res.txt \
 ´{\
@@ -30,8 +38,6 @@ It is possible to browse transactions from an online full node and copy them by 
 ¨¨:,
 }´
 `
-
-6. --  (optional backup and checksum)
 
 7. Offline delete Drives Securely
 
