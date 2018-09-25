@@ -38,11 +38,11 @@ From here on can transfer to air-gapped computer
 
 It is possible to browse transactions from an online full node and copy them by hand, as well as addressess etc. Signed transaction hex is very long and tedious. Depending on security criticality the transfer drive can be used as clipboard between online full node and air-gapped node.
 
-5. --  (optional backup and checksum)
+5. -- (optional) backup and checksum
 
+6. -- (optional) transfer tx data from online to air-gapped computers 
 
-
-6. Offline Transaction Create and Sign
+7. Offline Transaction Create and Sign
 
 ```
 . offlineTxCreateAndSign.sh res.txt 
@@ -60,10 +60,10 @@ txRateInSatPerByte=10,
 txSize=269}´
 ```
 
-7. Transfer of signed transaction from offline to online through transfer drive
-8. Online Verify Transactions
-9. Online Send Signed Transaction
-10. Offline delete Drives Securely
+8. Transfer of signed transaction from offline to online through transfer drive
+9. Online Verify Transactions
+10. Online Send Signed Transaction
+11. Offline delete Drives Securely
 
 At this point the keys have never touched the internet and are securely destroyed from source computer by programs, or physical destruction as the extreme option. 
 The keys thus only exist on your hard copy(ies) of it!!
