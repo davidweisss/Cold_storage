@@ -40,6 +40,18 @@ It is possible to browse transactions from an online full node and copy them by 
 ¨¨:,
 ¨¨:,
 }´
+## Inputs input from full- internet-connected node
+data="616d7a6e2063617264"
+utxoAmount=0.1126
+txIdIn="433d6ff012b5e6a21189ada80ea2edad6a080e4a4bc7956c49ac1b034fafb7bc"
+addressIn="3Mt8B9LkZZaCoDueFVm5MEn8cbjKYjHPxQ"
+addressInPrivateKey=""
+outputNumberIn=1 ## (computable)
+payAmount=0.00391120
+addressOut="18S9sxPktsMkwuVHKAH8w3t3SMS5JcKhTo"
+## Miner fee computation
+txRateInSatPerByte=10
+txSize=269
 ```
 
 7. Transfer of signed transaction from offline to online through transfer drive
