@@ -31,7 +31,8 @@ It is possible to browse transactions from an online full node and copy them by 
 
 6. Offline Transaction Create and Sign
 
-```. offlineTxCreateAndSign.sh res.txt 
+```
+. offlineTxCreateAndSign.sh res.txt 
 ´{
 ¨¨:,
 ¨¨:,
