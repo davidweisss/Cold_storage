@@ -64,8 +64,8 @@ txSize=269}´
 10. Online Send Signed Transaction
 11. Offline delete Drives Securely
 
-At this point the keys have never touched the internet and are securely destroyed from source computer by programs, or physical destruction as the extreme option. 
-The keys thus only exist on your hard copy(ies) of it!!
+The process is designed so that the keys have have never touched the internet at any time. But there is always a risk, hat increases as time passes and the number of operations increases. Therefore, it can be convenient to securely destroy the keys from source computer by programs, or by physical destruction of the media. 
+After this, the keys only exist on your hard copy(ies) of it!!
 
 !!No force in the universe will get this key back to you ever.!!
 
