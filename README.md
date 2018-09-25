@@ -19,7 +19,7 @@ It is possible to browse transactions from an online full node and copy them by 
 
 5. Offline Transaction Create and Sign
 
-5.1 (optional backup and checksum)
+5. (1) --  (optional backup and checksum)
 
 6. Offline delete Drives Securely
 
