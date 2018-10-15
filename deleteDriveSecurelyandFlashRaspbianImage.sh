@@ -21,18 +21,18 @@ sudo dd if=/dev/zero of=/dev/sda
 ## 128043712512 bytes (128 GB, 119 GiB) copied, 36658 s, 3,5 MB/s
 
 ## Download raspbian
-wget http://downloads.raspberrypi.org/raspbian_lite-latest
+wget http://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-10-11/2018-10-09-raspbian-stretch-lite.zip
 ## Checksum of OS (raspbian)
 ## SHA-256:3271b244734286d99aeba8fa043b6634cad488d211583814a2018fc14fdca313
 ## https://www.raspberrypi.org/downloads/raspbian/
 
 ## Verify download
-sha256sum raspbian_lite_latest
+sha256sum 2018-10-09-raspbian-stretch-lite.zip
 ## 3271b244734286d99aeba8fa043b6634cad488d211583814a2018fc14fdca313  raspbian_lite_latest
 
 ## Expand archive
 ## Copy image into sd
-unzip -p raspbian_lite_latest | sudo dd bs=4MB conv=fsync of=/dev/sda status=progress
+unzip -p 2018-10-09-raspbian-stretch-lite.zip | sudo dd bs=4MB conv=fsync of=/dev/sda status=progress
 
 ## Refs
 ## http://www.upubuntu.com/2012/01/how-to-clearerase-disk-partitions-from.html
